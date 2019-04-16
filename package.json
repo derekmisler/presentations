@@ -1,0 +1,27 @@
+{
+  "name": "presentations",
+  "version": "1.0.0",
+  "description": "Slideshows and whatnot",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "storybook": "npx mdx-deck storybook.mdx",
+    "rn": "npx mdx-deck react-native.mdx"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/derekmisler/presentations.git"
+  },
+  "keywords": [
+    "mdx"
+  ],
+  "author": "Derek Misler",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/derekmisler/presentations/issues"
+  },
+  "homepage": "https://github.com/derekmisler/presentations#readme",
+  "dependencies": {
+    "mdx-deck": "^2.2.1"
+  }
+}
